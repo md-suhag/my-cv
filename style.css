@@ -1,0 +1,175 @@
+/* --------------------------------
+ Common and reset code starts here 
+----------------------------------- */
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to left, rgb(113, 214, 113), cadetblue);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 900px;
+    background-color: #c4ca8d;
+    margin: 20px auto;
+    padding: 20px;
+    
+    
+}
+.highlighted-text{
+    font-weight: bold;
+}
+
+/* -------------------
+header starts here
+---------------------- */
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid teal;
+    border-radius: 50%;
+    float: left;
+    
+}
+.profile-img:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+    
+}
+.header-bio h1{
+    text-shadow: 2px 2px  orange;
+}
+.header-contact{
+    float: right;
+    padding: 10px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+h3{
+    font-family: 'Handlee', cursive;
+}
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+
+
+/*----------------------
+persional section starts
+----------------------*/
+
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+li{
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+#p-style{
+    text-align: justify;
+}
+/*----------------------
+Education section starts
+----------------------*/
+.Edu-left{
+    float: left;
+    width: 45%;
+    
+}
+.Edu-left a{
+   text-decoration: underline;
+   color: teal;
+}
+.Edu-left a:hover{
+    text-decoration: underline;
+    color: tomato;
+ }
+.Edu-right{
+    float:right;
+    width: 45%;
+}
+.Edu-right a{
+    text-decoration: underline;
+    color: teal;
+ }
+ .Edu-right a:hover{
+    text-decoration: underline;
+    color: tomato;
+ }
+
+ .Ref-left{
+    float: left;
+    width: 45%;
+ }
+ .Ref-right{
+    float: left;
+    width: 45%;
+ }
+ #Reference-section p{
+     font-size: 0.9rem;
+ }
+ /*----------------------
+Fotter section starts
+----------------------*/
+.bottom{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.bottom a{
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+    
+}
+.bottom a:hover{
+    text-decoration: underline;
+    color: tomato;
+    
+}
+.bottom p{
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
