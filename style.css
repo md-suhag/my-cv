@@ -23,10 +23,10 @@ body{
     
 }
 p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 li{
-    font-size: 0.8rem;
+    font-size: 13px;
 }
 .highlighted-text{
     font-weight: bold;
@@ -178,6 +178,6 @@ Fotter section starts
     
 }
 .bottom p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-top: 30px;
 }
